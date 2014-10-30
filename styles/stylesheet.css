@@ -1,0 +1,95 @@
+body { background-color: #E9967A;
+       font-family: "Comic Sans MS", cursive, sans-serif;
+       margin-left: 25px;}
+
+h1 { background-color:  #FFE4C4;
+	 text-transform: capitalize;
+     color:  #008080;
+     letter-spacing: 2px;
+     text-shadow: 2px 2px #F5FFFA;
+     font-size: 40px;}
+
+h2 { background-color: #DEB887;
+     text-transform: uppercase;
+     color: #FFFAFA;
+     letter-spacing: 2px;
+     text-shadow: 2px 2px #CD853F;
+     font-size: 30px;}
+
+.projects { background-color: #FFFAFA;
+            color:  #8B4513;
+            font-size: 20px;}
+
+ p .projects, .pastry { float:right;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 90px;}
+
+.inline-block{ display: inline-block;}
+
+.margin { margin-left: 10px;
+         margin-right:10px;}
+
+nav { text-align: right;
+      word-spacing: 30px;}
+
+.paragraph { text-indent: 50px;    
+	      font-size: 19px;
+          background-color: #B0C4DE;
+          padding: 30px;
+          border: 25px solid #FFFAFA;
+          margin-top: 25px;
+          margin-bottom: 25px;
+          margin-right: 200px;
+     	  position: absolute;
+     	  right: 0px;
+    	  width: 300px;}
+
+ #my { position: static;
+        margin-left: 500px;}
+
+#clients { position: static;
+          margin-left: 450px;}
+
+#I { margin-top: 50px;
+     margin-right: 470px;}
+
+figcaption {  color: #00FA9A;}
+
+h3 { color:  #008080;
+     letter-spacing: 2px;
+     font-size: 20px;} 
+
+nav a { color: inherit;
+	border: 1px solid black;
+    font-size: 25px;
+    margin-right: 25px;}
+
+.books { color:   #8A2BE2 ;
+         font-size: 25px;}
+
+.italic { font-style: italic;}
+
+a:link { color: #000000;}
+a:visited { color: #FFFAFA;}
+a:hover { color: #CD853F;}
+a:active { color:  #FFE4C4;}
+
+#main { margin-left: 350px;
+        margin-top: 60px;}
+
+.upper-nav { margin-top: -60px;}
+
+.center { text-align: center;}
+
+
+
+
+	
+
+
+ 
+  
+ 
+
+

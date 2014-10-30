@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 
     <title>Portfolio</title>
+	<link rel="stylesheet" href="styles\stylesheet.css">
 </head>
 
 <body>
@@ -12,28 +13,29 @@
             <a href="index.html"><img alt="cupcake" src=
             "http://pictures-e1.thumbtackstatic.com/pictures/641/wmwvmkef844b22l.png"></a>
 
-            <figcaption>
-                Freelance web programmer
+            <figcaption class = "italic">
+                "Freelance web programmer"
             </figcaption>
         </figure>
 
-        <nav>
+        <nav class = "upper-nav">
             <a href="about-me.html">About_me</a> <a href=
             "projects.html">Projects</a> <a href="#">Testimonials</a> <a href=
             "#">Contact</a>
         </nav>
-    </header><img alt="nice" src=
+    </header><img id = "main" alt="nice" src=
     "http://niceandserious.com/assets/images/journal/covers/omnivorous-curiousity.png">
 
-    <h1>Specializing in the development of <b>HTML5</b> websites using valid
+    <h1 class = "center">Specializing in the development of <b>HTML5</b> websites using valid
     and semantic practices.</h1>
 
     <article>
-        <h2>What I Do:</h2>
+        <h2 class = "center">What I Do:</h2>
 
-        <p>I aim to write the most beautiful code possible. I am still learning
+        <p class = "center paragraph" id = "I">I aim to write the most beautiful code possible. I am still learning
         how to do it, but with a help of my teachers in the end of this course,
-        I will build my own portfolio.</p><a href="about-me.html">about me
+        I will build my own portfolio.</p>
+		<a href="about-me.html">about me
         &#8594;</a>
 
         <figure>
@@ -46,17 +48,17 @@
             </figcaption>
         </figure>
 
-        <h2>Who are my future clients:</h2>
+        <h2 class = "center">Who are my future clients:</h2>
 
-        <p>My clients are design agencies and freelancer who already have a
+        <p class = "center paragraph" id = "clients">My clients are design agencies and freelancer who already have a
         design but need it coded into a fully working website.</p>
     </article>
 
     <aside>
-        <h2>Food for thoughts:</h2>
+        <h2 class = "center">Food for thoughts:</h2>
 
-        <div style="margin-left: 2em">
-            <p>Recomended Books:</p>
+   
+            <p class = "books">Recomended Books:</p>
 
             <ol>
                 <li>“The Design of everyday Things” by <a href=
@@ -75,7 +77,7 @@
                 </li>
             </ol>
 
-            <p>Recomended web-sites:</p>
+            <p class = "books">Recomended web-sites:</p>
 
             <ol>
                 <li>
@@ -100,10 +102,11 @@
             "projects.html">Projects</a> <a href="#">Testimonials</a> <a href=
             "#">Contact</a>
             <hr>
+		</nav>
 
             <p>Proudly coded by <a href="lepistina@gmail.com">Iuliia
             Zemliana</a>.</p>
-        </nav>
+        
     </footer>
 </body>
 </html>
