@@ -43,7 +43,8 @@ nav { text-align: right;
           margin-right: 200px;
      	  position: absolute;
      	  right: 0px;
-    	  width: 300px;}
+    	  width: 300px;
+          font-family: 'Indie Flower', cursive;}
 
  #my { position: static;
         margin-left: 500px;}
@@ -68,7 +69,12 @@ nav a { color: inherit;
 .books { color:   #8A2BE2 ;
          font-size: 25px;}
 
-.italic { font-style: italic;}
+.font, .books, .margin { font-family: 'Lobster', cursive;}
+
+.italic { font-style: italic;
+          font-family: 'Arvo', serif;}
+
+figcaption, .font2 { font-family: 'Arvo', serif;}
 
 a:link { color: #000000;}
 a:visited { color: #FFFAFA;}
@@ -82,7 +88,9 @@ a:active { color:  #FFE4C4;}
 
 .center { text-align: center;}
 
+.fa-quote-left{}
 
+.fa-quote-left{}
 
 
 	
